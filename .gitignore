@@ -139,3 +139,4 @@ cython_debug/
 
 # Internal database
 app/database.db
+app/data/*
