@@ -1,8 +1,8 @@
 import sqlite3
 from sqlite3 import Error
-# import pyodbc
+from pathlib import Path
 
-db_file = "../app/database.db"
+db_file = Path("../geocoder/app/database.db")
 
 def dict_factory(cursor, row):
     d = {}
